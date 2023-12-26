@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Book</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="mainTitle">
+      <h1>Contact Book</h1>
+    </div>
+    <div class="container">
+      <form id="contactForm">
+        <h3 class="title">Wanna add this Contact :</h3>
+        <div class="input-container">
+          <input type="text" name="name" class="inputName" placeholder="Name" />
+        </div>
+        <div class="input-container">
+          <input
+            type="text"
+            name="name"
+            class="inputSurname"
+            placeholder="Surname"
+          />
+        </div>
+        <div class="input-container">
+          <input
+            type="url"
+            name="photo"
+            class="inputPhoto"
+            placeholder="Photo"
+          />
+        </div>
+        <div class="input-container">
+          <input
+            type="number"
+            name="phone"
+            class="inputPhone"
+            placeholder="Phone"
+          />
+        </div>
+        <button type="submit" class="btn">Save Contact</button>
+      </form>
+
+      <div class="wrapp">
+        <ul id="contactList"></ul>
+      </div>
+      <div class="editModal">
+        <h3 class="title">Wanna edit this Contact :</h3>
+        <div class="input-container">
+          <input
+            type="text"
+            name="name"
+            class="inputName inputNameModal"
+            placeholder="Name"
+          />
+        </div>
+        <div class="input-container">
+          <input
+            type="text"
+            name="name"
+            class="inputSurname inputSurnameModal"
+            placeholder="Surname"
+          />
+        </div>
+        <div class="input-container">
+          <input
+            type="url"
+            name="photo"
+            class="inputPhoto inputPhotoModal"
+            placeholder="Photo"
+          />
+        </div>
+        <div class="input-container">
+          <input
+            type="number"
+            name="phone"
+            class="inputPhone inputPhoneModal"
+            placeholder="Phone"
+          />
+        </div>
+        <button type="submit" class="btn btnModal">Save Contact</button>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

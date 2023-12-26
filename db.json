@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "name": "Vladimir",
+      "surname": "Putin ",
+      "phone": "8794564",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVP-P4fOPgQWD9AmoPFkVxCDAqjVCygGEPMxOKqlc03g&s",
+      "id": 1
+    },
+    {
+      "name": "Sadyr",
+      "surname": "Japarov",
+      "phone": "56498489",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Official_Photo_of_the_President_of_the_Kyrgyz_Republic_H.E._Mr._Sadyr_Zhaparov.jpg/220px-Official_Photo_of_the_President_of_the_Kyrgyz_Republic_H.E._Mr._Sadyr_Zhaparov.jpg",
+      "id": 2
+    }
+  ]
+}
